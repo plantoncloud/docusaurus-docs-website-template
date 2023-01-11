@@ -1,4 +1,7 @@
 {
+    "_copy_without_render": [
+        "site/src"
+    ],
     "project_slug": "docs",
     "company_name": "My Company",
     "add_algolia_search": "true",
