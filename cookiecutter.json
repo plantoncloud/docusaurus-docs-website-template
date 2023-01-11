@@ -1,0 +1,8 @@
+{
+    "project_slug": "docs",
+    "company_name": "My Company",
+    "add_algolia_search": "true",
+    "algolia_app_id": "algolia-app-id",
+    "algolia_index_name": "algolia-index-name",
+    "algolia_api_key": "algloia-api-key"
+}

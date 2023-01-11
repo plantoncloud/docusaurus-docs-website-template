@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  docs:
+    image: {{cookiecutter.project_slug}}
+    ports:
+      - "3000:80"
+  scraper:
+    image: algolia/docsearch-scraper
+    environment:
+      - APPLICATION_ID={{cookiecutter.algolia_app_id}}
+      - API_KEY=${ALGOLIA_INDEXING_API_KEY}
+      - CONFIG=${DOCSEARCH_SCRAPER_CONFIG_JSON}
